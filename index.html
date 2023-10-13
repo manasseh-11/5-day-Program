@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Assiako Manasseh" />
+    <meta
+      name="description"
+      content="This webpage contains all the things I am learning how to create as I learn html" />
+    <link rel="icon" href="/images/logo.png" type="image/icon-x" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <title>Educative content</title>
+  </head>
+  <body>
+    <h1>My Goals for the Year</h1>
+
+    <hr />
+    <nav>
+      <ul>
+        <li>
+          <a href="#html">Learning HTML</a>
+        </li>
+        <li>
+          <a href="#vacation">Planning a Vacation</a>
+        </li>
+        <li>
+          <a href="#contact">Contact me</a>
+        </li>
+      </ul>
+    </nav>
+
+    <hr />
+    <section class="html">
+      <h2>It is a beautiful day in Accra. I am ready to learn HTML</h2>
+      <img
+        src="/images/Study time-unsplash.jpg"
+        alt="Learning html"
+        title="My study setup" />
+      <p>
+        I have a busy schedule, nonetheless I find time to study new things and
+        increase my value. I am willing and confident to study and understand
+        web development by integrating it into my studies
+      </p>
+      <aside>
+        <details>
+          <summary>
+            Guess the <mark>number of hours</mark> I code per day
+          </summary>
+          <p>
+            I start at <time datetime="08:00">8 am</time> and I write code for
+            <time datetime="PT3H">3 hours</time> every morning
+          </p>
+        </details>
+      </aside>
+      <img src="/images/html5 -unsplash.jpg" alt="html5 photo" />
+      <p>&lt;h1&gt;free coding.com&lt;h1&gt;</p>
+      <p>
+        It has been a stressful year here at
+        <abbr title="Mozilla Development Network"
+          ><a href="https://developer.mozilla.org/">MDN</a>
+        </abbr>
+        where I am working now and use their resources
+      </p>
+      <table>
+        <caption>
+          My Daily Schedule
+        </caption>
+        <thead>
+          <tr>
+            <th>&nbsp;</th>
+            <th scope="col">Time</th>
+            <th scope="col">Activity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Morning</th>
+            <td>
+              <time datetime="08:00">8am</time>-<time datetime="11:00"
+                >11am</time
+              >
+            </td>
+            <td>Write Code</td>
+          </tr>
+          <tr>
+            <th scope="row">Break</th>
+            <td>
+              <time datetime="11:00">11am</time>-<time datetime="12:00"
+                >12pm</time
+              >
+            </td>
+            <td>Eat lunch</td>
+          </tr>
+          <tr>
+            <th scope="row">Afternoon</th>
+            <td>
+              <time datetime="12:00">12pm</time>-<time datetime="17:00"
+                >5pm</time
+              >
+            </td>
+            <td>Study for other courses</td>
+          </tr>
+          <tr>
+            <th scope="row">Evening</th>
+            <td rowspan="2">All other Times</td>
+            <td>Free Time</td>
+          </tr>
+          <tr>
+            <th scope="row">Night</th>
+            <td>Sleep</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">
+              And that is what I do every day, 5 days a week. Eat, sleep, code
+              and recharge
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <p>I am Planning on a Vacation</p>
+      <!--Add more places-->
+      <h3>How did you spend your weekend</h3>
+      <ol>
+        <li>...I watched the Lakers game on Friday night</li>
+        <li>...I played football on Saturday Morning</li>
+        <li>...I went to <strong>church</strong> on Sunday</li>
+      </ol>
+    </section>
+    <hr />
+    <section id="vacation">
+      <h4>Expecting a blissful week</h4>
+      <h5>Places I'd like to Visit</h5>
+      <ul>
+        <li>
+          <p><em>Santorini </em>in Greece</p>
+          <img
+            src="images/Santorini-unsplash.jpg"
+            alt="photo of my lovely experience at Greece"
+            height="500px"
+            width="700px" />
+        </li>
+        <li>
+          <p>There are also very awesome experiences at the Caribbean</p>
+          <img
+            src="/images/Maldives-unsplash.jpg"
+            alt="Maldives Island"
+            width="650px"
+            height="500px" />
+        </li>
+        <li>
+          <p>I've heard good things about going here:</p>
+          <address>
+            Margaritaville Island Reserve Riviera Cancun<br />
+            Bahia Petempich Puerto Morelos,Mexico <br />
+            Colonia Morelos, Mexico 77580
+          </address>
+          <img
+            src="/images/Hawaii-unsplash.jpg"
+            alt="my vacation photo at Mexico"
+            height="600px"
+            width="700px" />
+        </li>
+      </ul>
+      <h3>Places I want to Avoid</h3>
+      <dl>
+        <dt>North Pole</dt>
+        <dd>I hear this is <strong>extremely cold!</strong></dd>
+        <dt>South Pole</dt>
+        <dd>This is also cold</dd>
+        <dt>Mountain Tops</dt>
+        <dd>These also have very low temperatures</dd>
+      </dl>
+    </section>
+
+    <article id="contact">
+      <h2>Contact Me</h2>
+      <p>I'd really like to hear from you</p>
+
+      <form action="https://httpbin.org/get" method="get">
+        <p>
+          <label for="firstName">First Name</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Jane"
+            autocomplete="on"
+            required
+            autofocus />
+        </p>
+        <p>
+          <label for="lastName">Last Name</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Doe"
+            autocomplete="on"
+            required />
+        </p>
+        <p>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="ksnaldck3649"
+            required />
+        </p>
+        <p>
+          <label for="phone">Phone</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="4455577733"
+            pattern="[0-9]{2}[0-9]{3}[0-9]{3}[0-9]{2}"
+            required />
+        </p>
+        <p>
+          <label for="decade=">Favorite Decade"</label>
+          <input
+            type="number"
+            name="decade"
+            id="decade"
+            min="1970"
+            max="2030"
+            step="10"
+            value="2000" />
+        </p>
+        <p>
+          <label for="coffee">Favorite coffee</label>
+          <select name="coffee" id="coffee" multiple size="2">
+            <optgroup label="Coffees">
+              <option value="regular coffee">Regular Coffee</option>
+            </optgroup>
+            <optgroup label="Expresso Drinks">
+              <option value="iced coffee">Iced Coffee</option>
+              <option value="latte">latte</option>
+              <option value="cappuccino" selected>Cappuccino</option>
+              <option value="cortado">Cortado</option>
+              <option value="americano">Americano</option>
+            </optgroup>
+            <option value="other">Other</option>
+          </select>
+        </p>
+      </form>
+    </article>
+    <hr />
+    &lt;&lt;&lt; &copy; <a href="about.html"> Assiako Manasseh</a> &gt;&gt;&gt;
+    <p>
+      <a href="#">Back to Top</a>
+    </p>
+  </body>
+</html>
